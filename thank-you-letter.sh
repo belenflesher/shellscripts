@@ -4,10 +4,10 @@ set +x
 # Get info
 echo "Name of interviewer?"
 read -r NAME
-
+echo
 echo "Position interviewed for?"
 read -r POSITION
-
+echo
 echo "Company name?"
 read -r COMPANY
 echo
@@ -16,7 +16,7 @@ echo
 echo
 echo
 echo
-
+echo
 # Write letter
 echo 'Subject line: Thank you for meeting with me'
 echo
